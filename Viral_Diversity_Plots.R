@@ -180,7 +180,6 @@ ggplot(Sample_metadata[Sample_metadata$Type=="infant" & !is.na(Sample_metadata$T
     width = 0.9, position = "dodge", adjust = 0.3, alpha = 0.7, 
     justification=-.2, .width = 0, point_colour = NA) +
   geom_boxplot(width=.25, outlier.color = NA, alpha = 0.9) +
-  #geom_point(color = "gray45", alpha = 0.05) +
   stat_histinterval(slab_color = "gray45",slab_linewidth = 0.3, outline_bars = T,  width = 0.9,
                     position = "dodge",alpha = 0.5, fill = "white",
                     justification=-.2,  breaks = 70, .width = 0) +  
